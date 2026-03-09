@@ -21,6 +21,9 @@ pkgs.mkShell {
     clang-tools
     nodePackages.prettier
     icu78
+    rustc
+    cargo
+    cargo-auditable-cargo-wrapper
   ] ++ extraPkgs;
 
   # https://github.com/NixOS/nixpkgs/blob/79a8a723b9/pkgs/by-name/la/ladybird/package.nix#L144-L147
